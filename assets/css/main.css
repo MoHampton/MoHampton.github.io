@@ -1286,6 +1286,7 @@
 
 			.gallery article .image {
 				margin: 0;
+				size: 450px 275px;
 				display: block;
 			}
 
@@ -2093,7 +2094,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/MJH.png");
+		background: url("images/overlay.png"), url("../../images/laptop.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2112,7 +2113,7 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/travel.png");
+		background: url("images/overlay.png"), url("../../images/airView.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2122,7 +2123,8 @@
 
 	#contact {
 		overflow: hidden;
-		padding-bottom: 0;
+		padding-bottom: 2em;
+		padding-top: 2em;
 	}
 
 		#contact .box {
